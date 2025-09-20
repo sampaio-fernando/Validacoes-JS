@@ -8,7 +8,6 @@ export default function Formulario (){
     const [nomeError, setNomeError] = useState('');
     const [emailError, setEmailError] = useState('');
 
-
     const validateForm = () =>{
         let isValid = true;
         
@@ -50,7 +49,7 @@ export default function Formulario (){
         <View style={globalStyles.container}>
 
             <View style={globalStyles.scrollContent}>
-                <Text style={globalStyles.title}>Formulário</Text>
+                <Text style={globalStyles.title}>FORMULARIO</Text>
 
                 <View style={globalStyles.inputContainer}>
                     <TextInput 
